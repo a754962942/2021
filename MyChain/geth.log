@@ -1,0 +1,44 @@
+INFO [10-25|00:07:12.078] Starting Geth in ephemeral dev mode... 
+INFO [10-25|00:07:12.080] Maximum peer count                       ETH=50 LES=0 total=50
+INFO [10-25|00:07:12.080] Smartcard socket not found, disabling    err="stat /run/pcscd/pcscd.comm: no such file or directory"
+INFO [10-25|00:07:12.081] Set global gas cap                       cap=50,000,000
+INFO [10-25|00:07:12.137] Using developer account                  address=0xaBF2845A2afeC7d7F922999cE3610e8A75aF3756
+INFO [10-25|00:07:12.137] Allocated cache and file handles         database=/home/dhw_2021/github/MyChain/data/geth/chaindata cache=512.00MiB handles=32768
+INFO [10-25|00:07:12.167] Opened ancient database                  database=/home/dhw_2021/github/MyChain/data/geth/chaindata/ancient readonly=false
+INFO [10-25|00:07:12.167] Freezer shutting down 
+INFO [10-25|00:07:12.168] Allocated trie memory caches             clean=154.00MiB dirty=256.00MiB
+INFO [10-25|00:07:12.168] Allocated cache and file handles         database=/home/dhw_2021/github/MyChain/data/geth/chaindata cache=512.00MiB handles=32768
+INFO [10-25|00:07:12.368] Opened ancient database                  database=/home/dhw_2021/github/MyChain/data/geth/chaindata/ancient readonly=false
+INFO [10-25|00:07:12.368] Initialised chain configuration          config="{ChainID: 10 Homestead: 0 DAO: <nil> DAOSupport: false EIP150: 0 EIP155: 0 EIP158: 0 Byzantium: 0 Constantinople: 0 Petersburg: 0 Istanbul: 0, Muir Glacier: <nil>, Berlin: <nil>, London: <nil>, Engine: unknown}"
+INFO [10-25|00:07:12.370] Disk storage enabled for ethash caches   dir=/home/dhw_2021/github/MyChain/data/geth/ethash count=3
+INFO [10-25|00:07:12.370] Disk storage enabled for ethash DAGs     dir=/home/dhw_2021/.ethash count=2
+INFO [10-25|00:07:12.370] Initialising Ethereum protocol           network=10 dbversion=8
+INFO [10-25|00:07:12.372] Loaded most recent local header          number=102 hash=7302e4..5b37a3 td=13,577,556 age=35m40s
+INFO [10-25|00:07:12.372] Loaded most recent local full block      number=102 hash=7302e4..5b37a3 td=13,577,556 age=35m40s
+INFO [10-25|00:07:12.372] Loaded most recent local fast block      number=102 hash=7302e4..5b37a3 td=13,577,556 age=35m40s
+INFO [10-25|00:07:12.375] Loaded local transaction journal         transactions=0 dropped=0
+INFO [10-25|00:07:12.376] Regenerated local transaction journal    transactions=0 accounts=0
+INFO [10-25|00:07:12.376] Gasprice oracle is ignoring threshold set threshold=2
+INFO [10-25|00:07:12.376] Starting peer-to-peer node               instance=Geth/v1.10.11-stable-7231b3ef/linux-amd64/go1.17.2
+WARN [10-25|00:07:12.376] P2P server will be useless, neither dialing nor listening 
+INFO [10-25|00:07:12.386] IPC endpoint opened                      url=/home/dhw_2021/github/MyChain/data/geth.ipc
+INFO [10-25|00:07:12.386] Transaction pool price threshold updated price=1,000,000,000
+INFO [10-25|00:07:12.386] Updated mining threads                   threads=0
+INFO [10-25|00:07:12.386] Transaction pool price threshold updated price=1
+INFO [10-25|00:07:12.386] Etherbase automatically configured       address=0xaBF2845A2afeC7d7F922999cE3610e8A75aF3756
+INFO [10-25|00:07:12.386] New local node record                    seq=1,635,088,357,651 id=0b242ade031364bd ip=127.0.0.1 udp=0 tcp=0
+INFO [10-25|00:07:12.386] Started P2P networking                   self=enode://3b0f5f525334e585610aabbbd77875096dff20f5a5a96642a1e456d67923cc2b720bc225612cdf56e635b3fa2d3c7d489f63dc1dbd738d8838e7d235e09397b2@127.0.0.1:0
+INFO [10-25|00:07:12.386] Commit new mining work                   number=103 sealhash=2a3049..fb1b51 uncles=0 txs=0 gas=0 fees=0 elapsed="83.4µs"
+WARN [10-25|00:08:20.232] Served eth_getBlockByNumber              reqid=13 t="33.2µs" err="invalid argument 0: hex string without 0x prefix"
+INFO [10-25|00:14:19.386] IPC endpoint closed                      url=/home/dhw_2021/github/MyChain/data/geth.ipc
+INFO [10-25|00:14:19.386] Ethereum protocol stopped 
+INFO [10-25|00:14:19.386] Transaction pool stopped 
+INFO [10-25|00:14:19.399] Writing cached state to disk             block=102 hash=7302e4..5b37a3 root=46f2c2..f2b544
+INFO [10-25|00:14:19.399] Persisted trie from memory database      nodes=0 size=0.00B time="3.8µs" gcnodes=0 gcsize=0.00B gctime=0s livenodes=1 livesize=0.00B
+INFO [10-25|00:14:19.399] Writing cached state to disk             block=101 hash=20abf6..b84f59 root=2dd8fd..501f11
+INFO [10-25|00:14:19.399] Persisted trie from memory database      nodes=0 size=0.00B time="2.4µs" gcnodes=0 gcsize=0.00B gctime=0s livenodes=1 livesize=0.00B
+INFO [10-25|00:14:19.399] Writing snapshot state to disk           root=d46638..6c85b9
+INFO [10-25|00:14:19.399] Persisted trie from memory database      nodes=0 size=0.00B time="2.2µs" gcnodes=0 gcsize=0.00B gctime=0s livenodes=1 livesize=0.00B
+INFO [10-25|00:14:19.399] Writing clean trie cache to disk         path=/home/dhw_2021/github/MyChain/data/geth/triecache threads=8
+INFO [10-25|00:14:19.405] Persisted the clean trie cache           path=/home/dhw_2021/github/MyChain/data/geth/triecache elapsed=5.906ms
+INFO [10-25|00:14:19.405] Blockchain stopped 
